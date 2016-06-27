@@ -19,7 +19,7 @@ var run = function(results) {
     if (item.type === "textarea") {
       var textareaString = `<div class="textarea">
                               <i class="fa ${item.icon} aria-hidden="true"></i>
-                              <label for="${item.id}">${item.label}<textarea id="${item.id}"></textarea>
+                              <label class="textarea-label" for="${item.id}">${item.label}<textarea id="${item.id}"></textarea>
                             </div>`
       $('#form').append(textareaString)
     }
