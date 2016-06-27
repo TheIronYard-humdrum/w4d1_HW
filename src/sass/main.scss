@@ -38,12 +38,23 @@ h1 {
 
 i {
   padding: 0 10px 0 10px;
+  color: rgb(193, 199, 202);
+}
+
+label {
+  color: rgb(193, 199, 202);
 }
 
 input {
   border: none;
   border-radius: 3px;
   height: 100%;
+  color: rgb(193, 199, 202);
+}
+
+select {
+  background-color: transparent;
+  color: rgb(193, 199, 202);
 }
 
 div.button {
@@ -64,5 +75,15 @@ button {
   border-radius: 3px;
 }
 
+.textarea {
+  width: calc(100% -60px);
+  margin: 10px 30px 0 30px;
+  border: solid 1px grey;
+}
+
+#user-comment {
+  margin-left: 10px;
+  border: none;
+}
 
 
