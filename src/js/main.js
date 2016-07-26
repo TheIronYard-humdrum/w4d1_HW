@@ -1,5 +1,5 @@
 import $ from 'jquery'
-
+$('document').ready(function(){
 var logIt = function(data) {
   console.log("You've got a bug!" + data)
 }
@@ -41,4 +41,5 @@ var results = $.ajax( {
   dataType: 'json',
   success: run,
   error: logIt
+})
 })
